@@ -6,6 +6,7 @@ Voting Application is a decentralized voting platform built on the Ethereum bloc
 
 
 Key Features:
+
 1.Smart Contract Integration: The voting logic is encapsulated in a Solidity smart contract, ensuring that votes are counted accurately and transparently.
 
 2.User Authentication: MetaMask is used for secure and seamless user authentication and transaction signing.
@@ -17,6 +18,8 @@ Key Features:
 
 
 Technologies Used:
+
+
 1.Solidity: For writing the smart contract that handles voting logic.
 
 2.React: For building the frontend user interface.
