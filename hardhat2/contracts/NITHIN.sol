@@ -3,8 +3,8 @@ pragma solidity ^0.8.19;
 
 contract NITHIN {
     uint public wallet_balance=5;
-    string  wallet;
-    address owner;
+    string   wallet;
+    address  owner;
     
     constructor() {
         owner=msg.sender; 

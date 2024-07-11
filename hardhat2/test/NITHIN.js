@@ -9,8 +9,8 @@ describe("NITHIN contract", async function () {
         const [owner] = await ethers.getSigners();
         const Nk = await ethers.getContractFactory("NITHIN");
         nk = await Nk.deploy();
-       
-        contractOwner = owner.address;
+       console.log(await nk);
+        contractOwner = owner.address;//address of the owner
     });
 
     it("getData checking", async function () {
